@@ -2,12 +2,10 @@
 
 /* 回答はここに書いてね */
 
-.food_table, .food_table_content{
+.food_table {
   table-layout: fixed;
   margin: 0 auto;
   width: 100%;
-  border: 1px solid #dedede;
-  border-collapse: collapse;
 }
 
 .food_table_header {
@@ -17,16 +15,25 @@
   color: #ffffff;
 }
 
-.food_table_content {
+.food_table_content, .food_table_footer {
   font-size: 16px;
   line-height: 22px;
   text-align: center;
 }
 
-.food_table_content:nth-child(odd) {
-  background-color: #ecf1f2;
+td:first-child {
+  background-color: #2244aa;
+  font-size: 18px;
+  color: #ffffff;
 }
 
+th, td {
+  border: 1px solid #dedede;
+  padding: 10px 0;
+}
 
+.food_table_footer {
+  border-top: 2px dashed #000;
+}
 
 /* 回答はここに書いてね */
