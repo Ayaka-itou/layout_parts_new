@@ -2,12 +2,23 @@
 
 /* 回答はここに書いてね */
 
-.q6_box1, .q6_box2 {
-  text-align: center;
+.q6_box_left, .q6_box_right {
   background-color: #e6f2ff;
   padding: 10px 0;
   width: 90px;
+}
+
+.q6_box_inner {
+  text-align: center;
+}
+
+.q6_box_left {
+  display: inline-block;
+}
+
+.q6_box_right {
   margin: 0 auto;
+  text-align: center;
 }
 
 .q6_around1_1 {
