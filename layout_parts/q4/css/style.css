@@ -6,11 +6,16 @@
   margin: 0 auto;
   background-color: #ecf1f2;
   padding: 20px;
+  
 }
 
-.q4_table_upper {
+.q4_table_content {
   display: table;
   width: 100%;
+}
+
+.q4_table_content:last-child {
+  padding-top: 40px;
 }
 
 .q4_table_upper1, .q4_table_upper2, .q4_table_upper3, .q4_table_lower1, .q4_table_lower2, .q4_table_lower3{
@@ -32,12 +37,6 @@
 .q4_table_upper3 {
   width: 100px;
   background-color: #b6d8ed;
-}
-
-.q4_table_lower {
-  display: table;
-  width: 100%;
-  padding-top: 40px;
 }
 
 .q4_table_lower1 {
