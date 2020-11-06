@@ -21,12 +21,12 @@
   text-align: justify;
 }
 
-.first_box_image {
+.left_box_image {
   float: left;
   margin: 0 20px 10px 0;
 }
 
-.second_box_image {
+.right_box_image {
   float: right;
   margin: 0 0 10px 20px;
 }
