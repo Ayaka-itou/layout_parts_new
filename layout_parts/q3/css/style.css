@@ -21,19 +21,23 @@
   text-align: center;
 }
 
-td:first-child {
+.food_table td:first-child {
   background-color: #2244aa;
   font-size: 18px;
   color: #ffffff;
 }
 
-th, td {
+.food_table th, td {
   border: 1px solid #dedede;
   padding: 10px 0;
 }
 
-.food_table_footer {
+.food_table_content tr:last-child {
   border-top: 2px dashed #000;
+}
+
+.food_table_content tr:nth-child(2n) {
+  background-color: #ecf1f2;
 }
 
 /* 回答はここに書いてね */
