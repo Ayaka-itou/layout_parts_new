@@ -6,50 +6,50 @@
   margin: 0 auto;
   background-color: #ecf1f2;
   padding: 20px;
-  
 }
 
 .q4_table_content {
   display: table;
   width: 100%;
+  margin-top: 20px;
 }
 
-.q4_table_content:last-child {
-  padding-top: 40px;
+.q4_table_content:first-child {
+  margin-top: 0;
 }
 
-.q4_table_upper1, .q4_table_upper2, .q4_table_upper3, .q4_table_lower1, .q4_table_lower2, .q4_table_lower3{
+.q4_content_cell {
   display: table-cell;
   text-align: center;
   padding: 20px 0;
 }
 
-.q4_table_upper1 {
+.is_orange {
   width: 100px;
   background-color: #fbc8b8;
 }
 
-.q4_table_upper2 {
+.is_pink {
   width: auto;
   background-color: #e0abd9;
 }
 
-.q4_table_upper3 {
+.is_blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.q4_table_lower1 {
+.is_yellow {
   width: auto;
   background-color: #e5d32e;
 }
 
-.q4_table_lower2 {
+.is_red {
   width: auto;
   background-color: #ec8f9a;
 }
 
-.q4_table_lower3 {
+.is_green {
   width: 500px;
   background-color: #8fdcad;
 }
