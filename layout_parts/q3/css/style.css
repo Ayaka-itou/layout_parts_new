@@ -8,7 +8,7 @@
   width: 100%;
 }
 
-.food_table_header {
+.food_table_header, .food_table th {
   font-size: 18px;
   line-height: 26px;
   background-color: #2244aa;
@@ -21,13 +21,7 @@
   text-align: center;
 }
 
-.food_table td:first-child {
-  background-color: #2244aa;
-  font-size: 18px;
-  color: #ffffff;
-}
-
-.food_table th, td {
+.food_table th, .food_table td {
   border: 1px solid #dedede;
   padding: 10px 0;
 }
