@@ -21,39 +21,39 @@
   text-align: center;
 }
 
-.q6_around1_1 {
+.q6_around_table {
   display: table;
 }
 
-.q6_around1_2 {
+.q6_around_content {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-.q6_around1_3 {
+.q6_around_tablebox {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
 }
 
-.q6_around2_1 /* flexのボックス */ {
+.q6_around_flex /* flexのボックス */ {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.q6_around2_2 {
+.q6_around_flexbox {
   padding: 10px;
   margin: auto;
   background-color: #fff;
 }
 
-.q6_box_stable_1 /* position固定 */ {
+.q6_box_stable /* position固定 */ {
   position: relative;
 }
 
-.q6_box_stable_2 {
+.q6_stablebox {
   position: absolute;
   margin: auto;
   top: 0;
@@ -62,11 +62,11 @@
   right: 0;
 }
 
-.q6_box_flexible_1 {
+.q6_box_flexible {
   position: relative;
 }
 
-.q6_box_flexible_2 /* position可変 */ {
+.q6_flexiblebox /* position可変 */ {
   position: absolute;
   top: 50%;
   left: 50%;
