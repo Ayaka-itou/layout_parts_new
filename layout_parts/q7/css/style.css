@@ -2,4 +2,98 @@
 
 /* 回答はここに書いてね */
 
+/* floatでの横並び */
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.a_q7_float {
+  width: 205px;
+  float: left;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.a_q7_float:first-child {
+  margin-left: 0;
+}
+
+/* tableでの横並び */
+
+.a_q7_table {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+  width: 225px;
+}
+
+.a_q7_table:first-child {
+  padding-left: 0;
+}
+
+.a_table_item {
+  display: table;
+  font-size: 16px;
+}
+
+/* inline-blockでの横並び */
+
+.a_q7_inlineblock {
+  font-size: 0;
+}
+
+.a_inlineblock_item {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  margin-left: 50px;
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.a_inlineblock_item:first-child {
+  margin-left: 0;
+}
+
+/* flexでの横並び */
+
+.a_q7_flex {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.a_flex_item {
+  width: 225px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* inline-blockとmarginでの横並び */
+
+.a_q7_margin {
+  font-size: 0;
+}
+
+.a_margin_item {
+  font-size: 16px;
+}
+
+.a_is_stable {
+  display: inline-block;
+  width: 300px;
+}
+
+.a_is_flexible {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+}
+
 /* 回答はここに書いてね */
+
