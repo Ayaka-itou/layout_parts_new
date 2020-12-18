@@ -32,7 +32,6 @@
 }
 
 .transition {
-  opacity: 0;
   bottom: -100%;
   left: 0;
   transition: all 500ms;
