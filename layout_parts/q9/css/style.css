@@ -13,25 +13,23 @@
   margin: 0 auto;
 }
 
-.q9_content::before {
+.q9_content::after, .q9_content::before {
   content: "";
   position: absolute;
+  border: 23px solid transparent;
+  border-top: 23px solid #ffffff;
+}
+
+.q9_content::before {
   left: 5%;
   bottom: -41px;
   z-index: 2;
-  border: 23px solid transparent;
-  border-top: 23px solid #ffffff;
-  
 }
 
 .q9_content::after {
-  content: "";
-  position: absolute;
   left: 5%;
   bottom: -48px;
   z-index: 1;
-  border: 23px solid transparent;
-  border-top: 23px solid #222222;
 }
 
 
